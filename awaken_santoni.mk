@@ -38,6 +38,13 @@ PRODUCT_NAME := awaken_santoni
 BOARD_VENDOR := Xiaomi
 PRODUCT_MANUFACTURER := Xiaomi
 
+# GApps
+TARGET_GAPPS_ARCH := arm64
+USE_GAPPS := true
+
+# Google Assistant
+TARGET_SUPPORTS_NEXT_GEN_ASSISTANT := true
+
 # Boot animation
 TARGET_BOOT_ANIMATION_RES := 720
 
